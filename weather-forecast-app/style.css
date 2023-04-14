@@ -1,0 +1,27 @@
+.weather-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-data__temp,
+.weather-data__humidity,
+.weather-data__wind {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.weather-data__label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.weather-data__value {
+  font-size: 20px;
+}
+
+.weather-data__unit {
+  margin-left: 5px;
+}
